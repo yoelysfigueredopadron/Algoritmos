@@ -102,7 +102,7 @@ Funcion Informe(totalPersonas, sexoMayorEdad, mayorEdad, DNIMayorEdad, totalVaro
 		Escribir "    Cantidad de Personas Censadas:  " totalPersonas;
 		Escribir "    Cantidad de Varones: " totalVarones;
 		Escribir "    Cantidad de Mujeres: " totalMujeres;
-		Escribir "    Cantidad de Varones entre 16 y 65 años: " porcentajeVarones "%";
+		Escribir "    Cantidad de Varones entre 16 y 65 años: " REDON(porcentajeVarones*100)/100 "%";
 		Escribir "";
 		Escribir "    La persona con mayor edad registrada es " sexoMayorEdad " con una edad de " mayorEdad " años y con DNI: " DNIMayorEdad;
 		Escribir "";
